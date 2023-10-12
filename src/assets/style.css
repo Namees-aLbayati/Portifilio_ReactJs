@@ -1,0 +1,35 @@
+body, h1,h2,h3,h4,h5,h6 {color: whitesmoke;
+    margin-left: 200px;
+    background-image: url('../assets/images/s.jpg');
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+  }
+  .custom-underline {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .custom-underline::before {
+    content: '';
+    position: absolute;
+    width: 23%;
+    height: 2px; /* Adjust the height as needed */
+    background-color: whitesmoke; /* Set your custom underline color */
+    left: 195px;
+    bottom: 0;
+    margin-top: 10px;
+  }
+
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+.main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
