@@ -1,14 +1,14 @@
 body, h1,h2,h3,h4,h5,h6 {color: whitesmoke;
     margin-left: 200px;
-    background-image: url('../assets/images/s.jpg');
 }
 
 .centered-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    margin: 0;
+    margin-top: 10px;
+    flex-direction: column; /* This makes the items stack vertically */
+
   }
   .custom-underline {
     position: relative;
@@ -18,13 +18,36 @@ body, h1,h2,h3,h4,h5,h6 {color: whitesmoke;
   .custom-underline::before {
     content: '';
     position: absolute;
-    width: 23%;
-    height: 2px; /* Adjust the height as needed */
+    width: 18%;
+    height: 1px; /* Adjust the height as needed */
     background-color: whitesmoke; /* Set your custom underline color */
-    left: 195px;
+    left: 155px;
     bottom: 0;
     margin-top: 10px;
   }
+  .custom-underline1 {
+    position: relative;
+    text-decoration: none;
+    margin-top: 3px;
+    /* Remove default underline */
+  }
+  
+  
+  .custom-underline1::before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 1px; /* Adjust the height as needed */
+    background-color: whitesmoke; /* Set your custom underline color */
+    bottom: 0;
+  }
+  
+    .img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; }
+      
+  
 
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
@@ -33,3 +56,90 @@ body, h1,h2,h3,h4,h5,h6 {color: whitesmoke;
 .main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.footer {
+    background-color: rgba(0, 0, 0, 0.3); /* Black color with 70% opacity */
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  
+ /* Define CSS styles for class names */
+
+  .experience {
+    margin: 25px 0;
+    border: 1px solid gray;
+    
+  }
+  
+  
+  .company {
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .date {
+    color: gray;
+  }
+  
+  .role {
+    margin-top: 10px;
+    color: gray;
+  }
+  
+  .responsibilities {
+    margin-top: 10px;
+    color: gray;
+  }
+  
+  .responsibilities ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .box {
+    --border-size: 3px;
+    --border-angle: 0turn;
+    background-image: conic-gradient(
+        
+        #213,
+        #112 50%,
+        #213
+      ),
+      conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03 ,yellow);
+    background-size: calc(100% - (var(--border-size) * 2))
+        calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    animation: bg-spin 3s linear infinite;
+  }
+  
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  .box:hover {
+    animation-play-state: paused;
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }

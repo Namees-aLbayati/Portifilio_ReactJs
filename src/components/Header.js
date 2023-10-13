@@ -4,27 +4,28 @@ import HomeDetails from '../components/HomeDeatils'
 import event from '../assets/images/movie.png'
 import { useState } from 'react';
 import '../assets/style.css'
+import About from './About';
+import Footer from './Footer';
 function Header() {
   
-    const [homeCont,setHomeContent]=useState(false)
-    function renderHome(){
-        setHomeContent(true)
-    }
+    const [activeComponent, setActiveComponent] = useState(null);
+
+  
   return (
     <>
     <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" >
-    <a className="w3-bar-item w3-button w3-padding-large " onClick={renderHome}>
+    <a className="w3-bar-item w3-button w3-padding-large " onClick={()=>setActiveComponent("Home")}>
       <i className="fa fa-home w3-xxlarge"></i>
-      <p>HOME</p>
+      <p>PROFILE</p>
     </a>
 
-    <a href="#about" className="w3-bar-item w3-button w3-padding-large ">
+    <a  className="w3-bar-item w3-button w3-padding-large " onClick={()=>setActiveComponent('About')}>
       <i className="fa fa-user w3-xxlarge"></i>
-      <p>ABOUT</p>
+      <p>Projects</p>
     </a>
     <a href="#photos" className="w3-bar-item w3-button w3-padding-large ">
       <i class="fa fa-eye w3-xxlarge"></i>
-      <p>PHOTOS</p>
+      <p>RESUME</p>
     </a>
     <a href="#contact" className="w3-bar-item w3-button w3-padding-large">
       <i className="fa fa-envelope w3-xxlarge"></i>
@@ -32,8 +33,9 @@ function Header() {
     </a>
   </nav>
   <div className="w3-padding-large" >
-    {homeCont && <HomeDetails/>}
-
+    {activeComponent==='Home' && <HomeDetails/>}
+    {activeComponent=== 'About' && <About/>}
+<Footer/>
     </div>
 
   </>
