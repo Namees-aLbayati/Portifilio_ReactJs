@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Portifilio_ReactJs
+Live URL:https://aesthetic-tiramisu-86a3a5.netlify.app# Portifilio_ReactJs
 =======
 # Getting Started with Create React App
 
