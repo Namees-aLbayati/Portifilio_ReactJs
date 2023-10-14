@@ -1,6 +1,9 @@
-Live URL:https://aesthetic-tiramisu-86a3a5.netlify.app# Portifilio_ReactJs
+
+
 =======
 # Getting Started with Create React App
+Live URL:https://aesthetic-tiramisu-86a3a5.netlify.app# Portifilio_ReactJs
+  "homepage": "https://aesthetic-tiramisu-86a3a5.netlify.app",
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
