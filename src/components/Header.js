@@ -6,6 +6,7 @@ import { useState } from 'react';
 import '../assets/style.css'
 import About from './About';
 import Footer from './Footer';
+import Projects from './Projects';
 function Header() {
   
     const [activeComponent, setActiveComponent] = useState(null);
@@ -16,14 +17,14 @@ function Header() {
     <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" >
     <a className="w3-bar-item w3-button w3-padding-large " onClick={()=>setActiveComponent("Home")}>
       <i className="fa fa-home w3-xxlarge"></i>
-      <p>PROFILE</p>
+      <p>About</p>
     </a>
 
-    <a  className="w3-bar-item w3-button w3-padding-large " onClick={()=>setActiveComponent('About')}>
+    <a  className="w3-bar-item w3-button w3-padding-large " onClick={()=>setActiveComponent('Projects')}>
       <i className="fa fa-user w3-xxlarge"></i>
       <p>Projects</p>
     </a>
-    <a href="#photos" className="w3-bar-item w3-button w3-padding-large ">
+    <a className="w3-bar-item w3-button w3-padding-large ">
       <i class="fa fa-eye w3-xxlarge"></i>
       <p>RESUME</p>
     </a>
@@ -34,7 +35,7 @@ function Header() {
   </nav>
   <div className="w3-padding-large" >
     {activeComponent==='Home' && <HomeDetails/>}
-    {activeComponent=== 'About' && <About/>}
+    {activeComponent==='Projects'&&<Projects/>}
 <Footer/>
     </div>
 
