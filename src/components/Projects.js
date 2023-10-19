@@ -15,18 +15,46 @@ import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
 
 
 function Projects() {
-  const projects=  [
-        {"name":"Event Planner","github":"https://github.com/Namees-aLbayati/Event_Planner_project2",
-        "image":"event.png",
-        "description":"Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse what's happening in your local area."
-        ,"url":"https://obscure-chamber-98928.herokuapp.com/","tech":"JavaScript,CSS,HTML,Bootstrap,HandleBars.js,expressJS,Npm packages"}
-       , {
+  const projects=  [{
+    "name":"",
+    "github":"",
+    "image":"black.jpg",
+    "description":"Auto Student Loan payout Dashboard",
+    "url":"https://github.com/Namees-aLbayati/Payout-Dash.git",
+    "tech":"HTML | CSS | Bootstrap | JavaScript | Method API "
+  },{
+    "name":"Payout System",
+    "github":"https://github.com/Namees-aLbayati/Payout-Dash.git",
+    "image":"method.png",
+    "description":"Auto Student Loan payout Dashboard",
+    "url":"https://github.com/Namees-aLbayati/Payout-Dash.git",
+    "tech":"HTML | CSS | Bootstrap | JavaScript | Method API "
+}, {"name":"Event Planner","github":"https://github.com/Namees-aLbayati/Event_Planner_project2",
+"image":"event.png",
+"description":"Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse what's happening in your local area."
+,"url":"https://obscure-chamber-98928.herokuapp.com/","tech":"JavaScript,CSS,HTML,Bootstrap,HandleBars.js,expressJS,Npm packages"}
+, 
+{
+    "name":"Resource Planner",
+    "github":"https://github.com/Namees-aLbayati/Resource-Planner.git",
+    "image":"resource.jpg",
+    "description":"designed for the manager class in companies or organizations, the one who wants to efficiently manage its human resource and pojects capacity simultaneously",
+    "url":"https://github.com/Namees-aLbayati/Payout-Dash.git",
+    "tech":"ReactJs,Node,ExpressJs,MongoDB"
+  },{
             "name":"Weather dashboard",
             "github":"https://github.com/Namees-aLbayati/WeatherApp",
             "image":"weather.png",
             "description":"Weather dashboard retrieves weather data for cities.",
             "url":"https://sensational-malabi-e89c8a.netlify.app/",
             "tech":"HTML | CSS | Bootstrap | JavaScript | Open Weather One Call API"
+        }, {
+            "name":"Backend API",
+            "github":"https://github.com/Namees-aLbayati/Movie_excer.git",
+            "image":"backend.png",
+            "description":"working with a secure Movie API To retrive specific data depending on specific input",
+            "url":"https://github.com/Namees-aLbayati/Movie_excer.git",
+            "tech":"ReactJs|switch-yam-equator.azurewebsites's API "
         },
         {
             "name":"Note Taker",
@@ -43,7 +71,7 @@ function Projects() {
             "description":"All food recipes are described in sections: Ingredients and Directions,and more ,Easy as that! Cooking doesn’t have to be complicated and our food recipes app can help you to prepare some awesome meals.with your own choices ",
             "url":"https://helpful-zabaione-ba5ce8.netlify.app/",
             "tech":"HTML | CSS | Bootstrap | JavaScript | Food rec One Call API | local storage"
-        },
+        }, 
         {
             "name":"Guess Game",
             "github":"https://github.com/Namees-aLbayati/Guess-Game",
@@ -65,9 +93,7 @@ function Projects() {
         "description":"Movie Tracker is an app to get details about latest Movies",
         "url":"https://beautiful-scone-741e17.netlify.app/"
        , "tech":"HTML | CSS | Bootstrap | JavaScript | Movie rec One Call API"
-    },
-     {"name":"React profile ","github":"https://github.com/Namees-aLbayati/new-Profile-react","image":"react.png","description":"ReactJS Profile","url":"https://wondrous-halva-a79db8.netlify.app/","tech":"ReactJs,npm packages ,npm packages,MoongoDB"}
-    ,
+    }    ,
     {"name":"Note Tacker","github":"https://github.com/Namees-aLbayati/Progressive-web-App-webpack","image":"notetacker.png","description":"add your own note","url":"https://dynamic-strudel-d13cc7.netlify.app/","tech":"webpack packages , Indexdb,expressjs"}
     ,
     {"name":"Add Reviews&Questions","github":"https://github.com/Namees-aLbayati/post-reviews-question-Command-EXPRESS","image":"review.png","description":" Add your name,Product's name, and ask or add your reviews,it will be recorded on a produc's company database with in a unique ID","url":"#","tech":"HTML,CSS,HANDLEBARS,Bcrypt,npm packages,expressjs,MongooDB"}
@@ -87,8 +113,8 @@ function Projects() {
         }}
         breakpoints={{
           769: {
-            slidesPerView: 2,
-            slidesPerGroup: 2,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
           },
         }}
         scrollbar={true}
@@ -98,15 +124,21 @@ function Projects() {
         }}
         modules={[Keyboard, Scrollbar, Navigation, Pagination]}
         className="mySwiper"
+        style={{marginLeft:'100px', width: "1200px", 
+        height: "800px" }}
       >
  
 
 
  {projects.map((project,index) => (
-  <SwiperSlide key={project.name}>
-    <img src={require(`../assets/images/event.png`).default} alt={`Slide ${index}`} />
-    <p>{project.name}</p>
-    <p>{`../assets/images/` + project.image}</p>
+  <SwiperSlide key={project.name} style={{
+    position: "relative",
+    display: "inline-block" }}>
+    <a href={`${project.github}`}>
+    <img src={require(`../assets/images/${project.image}`)} alt={`Slide ${index}`} style={{width:'75%', objectFit: "cover",marginLeft:'200px'}} />
+    <div className="overlay-text">Technologies Used: {project.tech}</div>
+
+ </a>
   </SwiperSlide>
 ))}
 

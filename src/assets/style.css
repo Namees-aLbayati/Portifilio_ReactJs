@@ -198,4 +198,11 @@ body, h1,h2,h3,h4,h5,h6 {color: whitesmoke;
     }
   }
   
-  
+  .overlay-text {
+    position: absolute; /* Position the text relative to the container */
+    left: 50%; /* Position the text 50% from the left of the container */
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px; 
+  }
