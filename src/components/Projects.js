@@ -19,9 +19,9 @@ function Projects() {
     "name":"",
     "github":"",
     "image":"black.jpg",
-    "description":"Auto Student Loan payout Dashboard",
-    "url":"https://github.com/Namees-aLbayati/Payout-Dash.git",
-    "tech":"HTML | CSS | Bootstrap | JavaScript | Method API "
+    "description":"",
+    "url":"https://github.com/Namees-aLbayati/",
+    "tech":""
   },{
     "name":"Payout System",
     "github":"https://github.com/Namees-aLbayati/Payout-Dash.git",
@@ -136,9 +136,13 @@ function Projects() {
     display: "inline-block" }}>
     <a href={`${project.github}`}>
     <img src={require(`../assets/images/${project.image}`)} alt={`Slide ${index}`} style={{width:'75%', objectFit: "cover",marginLeft:'200px'}} />
-    <div className="overlay-text">Technologies Used: {project.tech}</div>
+        {project.tech.length>0 && <div className="overlay-text">
 
- </a>
+Technologies Used: {project.tech}</div>
+}
+      
+      </a>
+
   </SwiperSlide>
 ))}
 

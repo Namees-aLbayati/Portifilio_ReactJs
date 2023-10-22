@@ -4,7 +4,7 @@ function Experience() {
   const experiences = [
     {
       title: 'Full Stack WEB Developer (MERN)',
-      company: 'At-Bay',
+      company: 'BCBS',
       location: 'Remote',
       date: 'January 2022 - June 2023',
       role: 'Involved in various phases of Software Development Life Cycle (SDLC) of the application...',
