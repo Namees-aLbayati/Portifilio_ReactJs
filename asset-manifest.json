@@ -1,16 +1,35 @@
 {
   "files": {
-    "main.css": "/Namees-aLbayati/Portifilio_ReactJs.git/static/css/main.6012b59b.css",
-    "main.js": "/Namees-aLbayati/Portifilio_ReactJs.git/static/js/main.b981f4c4.js",
+    "main.css": "/Namees-aLbayati/Portifilio_ReactJs.git/static/css/main.b46deea7.css",
+    "main.js": "/Namees-aLbayati/Portifilio_ReactJs.git/static/js/main.dd4a4290.js",
+    "static/media/stars-1673971392432-8828.jpg": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/stars-1673971392432-8828.369787ffade93b7a25c0.jpg",
     "static/media/movie.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/movie.d37a3b1e4526d3627a30.png",
+    "static/media/guess.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/guess.8a7d2901bee8f2d7b464.png",
+    "static/media/ecommerce.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/ecommerce.d627b6e6b407f8c4b13b.png",
     "static/media/food.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/food.5ac9d2c8bbb067a36f0d.png",
-    "static/media/namees.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/namees.473c90c048ea5af78311.png",
+    "static/media/notetacker.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/notetacker.f5d5dc15ce6c4fbb2f73.png",
+    "static/media/weather.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/weather.4ff779a3b4e01fb038c3.png",
+    "static/media/work.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/work.d6b0b423060164399259.png",
+    "static/media/background-2.jpg": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/background-2.d2625837d501bb45deb3.jpg",
+    "static/media/login.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/login.3b09cd40001633281b1e.png",
+    "static/media/react.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/react.aa6f4693ad6860aff33d.png",
+    "static/media/review.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/review.02d0b5212a61f517483b.png",
+    "static/media/method.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/method.8211e8d745d666d16d1c.png",
+    "static/media/backend.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/backend.ffc232b54120d8959115.png",
+    "static/media/resource.jpg": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/resource.f3c94a6cd4fc9b81d1d3.jpg",
+    "static/media/password.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/password.3ef159f4507e5e62b92d.png",
+    "static/media/black.jpg": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/black.7d76adb242949b1f5a18.jpg",
+    "static/media/s.jpg": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/s.acd3598a73999742b8e2.jpg",
+    "static/media/event.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/event.2fb0db50c4098de0574e.png",
+    "static/media/s__1547386667476_deepfield.webp": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/s_9DCA19C260A17186CB74D88060C4120D5C4E963F9CC68332AE102310C9807941_1547386667476_deepfield.ff82eedbe8ed9ccc18d3.webp",
+    "static/media/resume.pdf": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/resume.05ad688823e1f23acf08.pdf",
+    "static/media/namees.png": "/Namees-aLbayati/Portifilio_ReactJs.git/static/media/namees.e79b9870cee0eec90128.png",
     "index.html": "/Namees-aLbayati/Portifilio_ReactJs.git/index.html",
-    "main.6012b59b.css.map": "/Namees-aLbayati/Portifilio_ReactJs.git/static/css/main.6012b59b.css.map",
-    "main.b981f4c4.js.map": "/Namees-aLbayati/Portifilio_ReactJs.git/static/js/main.b981f4c4.js.map"
+    "main.b46deea7.css.map": "/Namees-aLbayati/Portifilio_ReactJs.git/static/css/main.b46deea7.css.map",
+    "main.dd4a4290.js.map": "/Namees-aLbayati/Portifilio_ReactJs.git/static/js/main.dd4a4290.js.map"
   },
   "entrypoints": [
-    "static/css/main.6012b59b.css",
-    "static/js/main.b981f4c4.js"
+    "static/css/main.b46deea7.css",
+    "static/js/main.dd4a4290.js"
   ]
 }
