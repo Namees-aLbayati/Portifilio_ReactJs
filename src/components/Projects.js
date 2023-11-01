@@ -23,6 +23,13 @@ function Projects() {
     "url":"https://github.com/Namees-aLbayati/",
     "tech":""
   },{
+    "name":"E-commerce platform",
+    "github":"https://github.com/Namees-aLbayati/OnlineShop_MERN",
+    "image":"ecommerce.png",
+    "description":"",
+    "url":"https://github.com/Namees-aLbayati/",
+    "tech":"MERN stack App || strip to handel the checkout transection"
+  },{
     "name":"Payout System",
     "github":"https://github.com/Namees-aLbayati/Payout-Dash.git",
     "image":"method.png",

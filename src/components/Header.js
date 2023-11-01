@@ -7,6 +7,7 @@ import Resume from './Resume';
 import Footer from './Footer';
 import Projects from './Projects';
 import { Outlet, Link } from "react-router-dom";
+import Contact from './Contact';
 
 function Header() {
     const [activeComponent, setActiveComponent] = useState("Home");
@@ -35,7 +36,7 @@ function Header() {
     </a>
     </Link>
 
-    <a href="#contact" className="w3-bar-item w3-button w3-padding-large">
+    <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick={()=>setActiveComponent('Contact')}>
       <i className="fa fa-envelope w3-xxlarge"></i>
       <p>CONTACT</p>
     </a>
@@ -44,6 +45,7 @@ function Header() {
     {activeComponent==='Home' && <HomeDetails/>}
     {activeComponent==='Projects'&&<Projects/>}
     {activeComponent==='Resume'&& <Resume/>}
+    {activeComponent=='Contact'&&<Contact/>}
 <Footer/>
     </div>
 
