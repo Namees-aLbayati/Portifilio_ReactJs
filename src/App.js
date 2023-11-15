@@ -9,12 +9,11 @@ function App(){
 return(
   <BrowserRouter>
   <Routes>
-    <Route path='/' element={    <Header/>
+    <Route path='/Portifilio_ReactJs' element={    <Header/>
 }/>
     <Route path='/project' element={    <Projects/>
 }/>
-   <Route path='/resume' element={<PDFViewer/>
-}/>
+ 
 </Routes>
   </BrowserRouter>
 

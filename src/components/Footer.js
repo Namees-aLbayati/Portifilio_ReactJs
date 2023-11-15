@@ -34,7 +34,7 @@ function Footer() {
         </section>
         <section>
           {/* Facebook icon with a link */}
-          <a href='mailto:nameessaladdin@gmail.com' target="_blank" rel="noopener noreferrer">
+          <a href='mailto:bayatinimees@gmail.com' target="_blank" rel="noopener noreferrer">
             <i className="fab fa-g" style={iconStyle}></i>
           </a>
         </section>

@@ -3,7 +3,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import HomeDetails from '../components/HomeDeatils'
 import { useMemo, useReducer, useState } from 'react';
 import '../assets/style.css'
-import Resume from './Resume';
+//import Resume from './Resume';
 import Footer from './Footer';
 import Projects from './Projects';
 import { Outlet, Link } from "react-router-dom";
@@ -29,12 +29,7 @@ function Header() {
       <p>Projects</p>
     </a>
 </Link>
-  <Link to='/resume'>
-    <a className="w3-bar-item w3-button w3-padding-large " onClick={()=>setActiveComponent('Resume')}>
-      <i class="fa fa-eye w3-xxlarge"></i>
-      <p>RESUME</p>
-    </a>
-    </Link>
+
 
     <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick={()=>setActiveComponent('Contact')}>
       <i className="fa fa-envelope w3-xxlarge"></i>
@@ -44,7 +39,6 @@ function Header() {
   <div className="w3-padding-large" >
     {activeComponent==='Home' && <HomeDetails/>}
     {activeComponent==='Projects'&&<Projects/>}
-    {activeComponent==='Resume'&& <Resume/>}
     {activeComponent=='Contact'&&<Contact/>}
 <Footer/>
     </div>

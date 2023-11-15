@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
-import pdfFile from './resume.pdf';
 function PDFViewer() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -16,7 +15,6 @@ function PDFViewer() {
         title="PDF Viewer"
         width="100%"
         height="1000"
-        src={pdfFile}
       />
     </div>
   );
