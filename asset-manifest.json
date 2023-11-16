@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portifilio_ReactJs/static/css/main.b46deea7.css",
-    "main.js": "/Portifilio_ReactJs/static/js/main.714d7cec.js",
+    "main.css": "/Portifilio_ReactJs/static/css/main.7cd2d589.css",
+    "main.js": "/Portifilio_ReactJs/static/js/main.b9563772.js",
     "static/media/stars-1673971392432-8828.jpg": "/Portifilio_ReactJs/static/media/stars-1673971392432-8828.369787ffade93b7a25c0.jpg",
     "static/media/movie.png": "/Portifilio_ReactJs/static/media/movie.d37a3b1e4526d3627a30.png",
     "static/media/guess.png": "/Portifilio_ReactJs/static/media/guess.8a7d2901bee8f2d7b464.png",
@@ -24,11 +24,11 @@
     "static/media/s__1547386667476_deepfield.webp": "/Portifilio_ReactJs/static/media/s_9DCA19C260A17186CB74D88060C4120D5C4E963F9CC68332AE102310C9807941_1547386667476_deepfield.ff82eedbe8ed9ccc18d3.webp",
     "static/media/namees.png": "/Portifilio_ReactJs/static/media/namees.e79b9870cee0eec90128.png",
     "index.html": "/Portifilio_ReactJs/index.html",
-    "main.b46deea7.css.map": "/Portifilio_ReactJs/static/css/main.b46deea7.css.map",
-    "main.714d7cec.js.map": "/Portifilio_ReactJs/static/js/main.714d7cec.js.map"
+    "main.7cd2d589.css.map": "/Portifilio_ReactJs/static/css/main.7cd2d589.css.map",
+    "main.b9563772.js.map": "/Portifilio_ReactJs/static/js/main.b9563772.js.map"
   },
   "entrypoints": [
-    "static/css/main.b46deea7.css",
-    "static/js/main.714d7cec.js"
+    "static/css/main.7cd2d589.css",
+    "static/js/main.b9563772.js"
   ]
 }
